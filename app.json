@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/snake/snake",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00A667",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/nice.png",
+      "selectedIconPath": "icons/nice_1.png"
+    }, 
+    {
+      "pagePath": "pages/snake/snake",
+      "text": "snake",
+      "iconPath": "icons/snake.png",
+      "selectedIconPath": "icons/snake_1.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
